@@ -38,6 +38,10 @@ header {
   z-index: 3000;
   font-size: 1.2rem;
   overflow: hidden;
+  /* NUEVA ANIMACION NUEVA ANIMACION NUEVA ANIMACION */
+  animation: aparecer ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;  
 }
 
 .header__logo {
@@ -510,6 +514,16 @@ input {
   visibility: hidden;
 }
 
+/* ANIMACIONES ANIMACIONES ANIMACIONES ANIMACIONES ANIMACIONES ANIMACIONES  */
+
+@keyframes aparecer {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
 
 /* MEDIA QUERYS MEDIA QUERYS MEDIA QUERYS MEDIA QUERYS MEDIA QUERYS   */
 
